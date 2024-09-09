@@ -1,0 +1,54 @@
+{
+  "name": "theme-nickel",
+  "displayName": "theme-nickel",
+  "author": {
+    "name": "Daniel Nickel",
+    "email": "nickel-dev@proton.me",
+    "url": "nickel-dev.github.io"
+  },
+  "description": "a high quality consistent dark theme ported from 4coder",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+		"color": "#dc7575",
+		"theme": "dark"
+	},
+  "license": "MIT",
+	"keywords": [
+		"simple theme",
+		"dark theme",
+		"red",
+		"blue",
+		"4coder theme",
+		"theme",
+		"4coder",
+		"nickel",
+		"nickel-theme",
+		"nickel theme",
+		"handmade",
+		"simple dark theme",
+		"dark",
+		"rust theme",
+		"cpp theme",
+		"c++ theme",
+		"c theme"
+  ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/nickel-dev/theme-nickel"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "theme-nickel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-nickel-color-theme.json"
+      }
+    ]
+  }
+}

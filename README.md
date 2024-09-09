@@ -1,2 +1,5 @@
 # theme-nickel
-a high quality consistent dark theme ported from 4coder
+
+This is my custom theme I originally build for 4coder.  
+
+**Nickel.**
