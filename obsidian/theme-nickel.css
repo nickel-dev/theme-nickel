@@ -1,0 +1,47 @@
+body {
+	--radius-global: 5px;
+
+	--radius-s:  var(--radius-global);
+	--radius-m:  var(--radius-global);
+	/*--radius-l:  10px;*/
+	--input-radius:  var(--radius-global);
+	--checkbox-radius:  var(--radius-global);
+	/*--tab-radius-active: 20px;*/
+	--toggle-radius: 5in;
+	--toggle-thumb-radius: 5in;
+	--slider-thumb-radius: 5in;
+	color: #b9b4b8;
+
+	--background-primary: #151515;
+	--background-secondary: #151515;
+	--titlebar-background-focused: #0A0A0A;
+}
+
+.markdown-source-view.mod-cm6 .cm-underline,
+.markdown-source-view .cm-formatting-link-string,
+.markdown-source-view .cm-formatting-link {
+	text-decoration: none !important;
+  color: #dc7575 !important;
+  --link-external-color-hover: #dc7575;
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+.HyperMD-header.HyperMD-header-1, .inline-title {
+	text-align: center;
+	color: #fcecc4;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}

@@ -4,8 +4,9 @@
   "author": {
     "name": "Daniel Nickel",
     "email": "nickel-dev@proton.me",
-    "url": "nickel-dev.github.io"
+    "url": "https://nickel-dev.github.io"
   },
+  "publisher": "nickel-dev",
   "description": "a high quality consistent dark theme ported from 4coder",
   "version": "0.0.1",
   "engines": {
