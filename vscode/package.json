@@ -8,7 +8,7 @@
   },
   "publisher": "nickel-dev",
   "description": "a high quality consistent dark theme ported from 4coder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.93.0"
   },
